@@ -1,7 +1,7 @@
 'use strict'
 
 const db = require('../server/db')
-const {User, Video} = require('../server/db/models')
+const {User, Video, Image} = require('../server/db/models')
 
 async function seed() {
   await db.sync({force: true})
@@ -25,8 +25,142 @@ async function seed() {
     })
   ])
 
+  const images = await Promise.all([
+    Image.create({
+      name: 'a',
+      imageUrl: '../public/Image/a.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'b',
+      imageUrl: '../public/Image/b.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'c',
+      imageUrl: '../public/Image/c.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'd',
+      imageUrl: '../public/Image/d.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'e',
+      imageUrl: '../public/Image/e.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'f',
+      imageUrl: '../public/Image/f.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'g',
+      imageUrl: '../public/Image/g.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'h',
+      imageUrl: '../public/Image/h.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'i',
+      imageUrl: '../public/Image/i.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'j',
+      imageUrl: '../public/Image/j.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'k',
+      imageUrl: '../public/Image/k.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'l',
+      imageUrl: '../public/Image/l.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'm',
+      imageUrl: '../public/Image/m.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'n',
+      imageUrl: '../public/Image/n.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'o',
+      imageUrl: '../public/Image/o.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'p',
+      imageUrl: '../public/Image/p.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'q',
+      imageUrl: '../public/Image/q.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'r',
+      imageUrl: '../public/Image/r.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 's',
+      imageUrl: '../public/Image/s.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 't',
+      imageUrl: '../public/Image/t.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'u',
+      imageUrl: '../public/Image/u.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'v',
+      imageUrl: '../public/Image/v.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'w',
+      imageUrl: '../public/Image/w.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'x',
+      imageUrl: '../public/Image/x.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'y',
+      imageUrl: '../public/Image/y.png',
+      description: 'a in asl'
+    }),
+    Image.create({
+      name: 'z',
+      imageUrl: '../public/Image/z.png',
+      description: 'a in asl'
+    })
+  ])
+
   console.log(`seeded ${users.length} users`)
   console.log(`seeded ${videos.length} videos`)
+  console.log(`seeded ${images.length} images`)
 
   console.log(`seeded successfully`)
 }

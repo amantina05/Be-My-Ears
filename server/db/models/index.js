@@ -1,6 +1,7 @@
 const User = require('./user')
 const db = require('../db')
 const Video = require('./video')
+const Image = require('./image')
 
 /**
  * If we had any associations to make, this would be a great place to put them!
@@ -17,5 +18,6 @@ const Video = require('./video')
  */
 module.exports = {
   User,
-  Video
+  Video,
+  Image
 }
