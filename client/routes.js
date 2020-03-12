@@ -2,7 +2,18 @@ import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {withRouter, Route, Switch} from 'react-router-dom'
 import PropTypes from 'prop-types'
-import {Login, Signup, UserHome} from './components'
+import {
+  Login,
+  Signup,
+  UserHome,
+  GuestHome,
+  Profile,
+  SpeechToText,
+  TextToSpeech,
+  TextToASL,
+  ASLToText,
+  ASLToSpeech
+} from './components'
 import {me} from './store'
 
 /**
@@ -21,10 +32,24 @@ class Routes extends Component {
         {/* Routes placed here are available to all visitors */}
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
+
+        <Route path="/ghome" component={GuestHome} />
+        <Route exact path="/speechToText" component={SpeechToText} />
+        <Route exact path="/textToSpeech" component={TextToSpeech} />
+        <Route exact path="/textToASL" component={TextToASL} />
+        <Route exact path="/ASLToText" component={ASLToText} />
+        <Route exact path="/ASLToSpeech" component={ASLToSpeech} />
+
         {isLoggedIn && (
           <Switch>
             {/* Routes placed here are only available after logging in */}
             <Route path="/home" component={UserHome} />
+            <Route path="/profile" component={Profile} />
+            <Route path="/speechToText" component={SpeechToText} />
+            <Route exact path="/textToSpeech" component={TextToSpeech} />
+            <Route path="/textToASL" component={TextToASL} />
+            <Route path="/ASLToText" component={ASLToText} />
+            <Route path="/ASLToSpeech" component={ASLToSpeech} />
           </Switch>
         )}
         {/* Displays our Login component as a fallback */}

@@ -2,6 +2,58 @@ const router = require('express').Router()
 const User = require('../db/models/user')
 module.exports = router
 
+// //utility func
+// const userNotFound = next => {
+//   const err = new Error('Not found')
+//   err.status = 404
+//   next(err)
+// }
+
+// //get route to fetch your info
+// router.get('/me', async (req, res, next) => {
+//   try {
+//     if (!req.session.userId) {
+//       userNotFound(next)
+//     } else {
+//       const user = await User.findByPk(req.session.userId)
+//       res.json(user)
+//     }
+//   } catch (error) {
+//     console.error(error)
+//   }
+// })
+
+router.get('/me', async (req, res, next) => {
+  try {
+    if (req.user) {
+      res.json(req.user)
+    }
+  } catch (error) {
+    console.error(error)
+  }
+})
+
+//put route for /login (keeps you logged in)
+router.put('/login', async (req, res, next) => {
+  try {
+    const user = await User.findOne({
+      where: {
+        email: req.body.email,
+        password: req.body.password
+      }
+    })
+    if (!user) {
+      const err = new Error('Inncorrect email or password')
+      err.status = 401
+      throw err
+    } else {
+      req.login(user, err => (err ? next(err) : res.json(user)))
+    }
+  } catch (error) {
+    console.error(error)
+  }
+})
+
 router.post('/login', async (req, res, next) => {
   try {
     const user = await User.findOne({where: {email: req.body.email}})
