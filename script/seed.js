@@ -28,133 +28,234 @@ async function seed() {
   const images = await Promise.all([
     Image.create({
       name: 'a',
-      imageUrl: '../public/Image/a.png',
+      imageUrl: 'https://imgur.com/5y1vQys.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'b',
-      imageUrl: '../public/Image/b.png',
+      imageUrl: 'https://imgur.com/MuO2xHY.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'c',
-      imageUrl: '../public/Image/c.png',
+      imageUrl: 'https://imgur.com/lEIICKC.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'd',
-      imageUrl: '../public/Image/d.png',
+      imageUrl: 'https://imgur.com/Ll07o0E.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'e',
-      imageUrl: '../public/Image/e.png',
+      imageUrl: 'https://imgur.com/QPTyKDx.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'f',
-      imageUrl: '../public/Image/f.png',
+      imageUrl: 'https://imgur.com/FfRgQDO.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'g',
-      imageUrl: '../public/Image/g.png',
+      imageUrl: 'https://imgur.com/DFfK7or.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'h',
-      imageUrl: '../public/Image/h.png',
+      imageUrl: 'https://imgur.com/Bopk9iw.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'i',
-      imageUrl: '../public/Image/i.png',
+      imageUrl: 'https://imgur.com/Duw1NK1.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'j',
-      imageUrl: '../public/Image/j.png',
+      imageUrl: 'https://imgur.com/GzUCO8M.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'k',
-      imageUrl: '../public/Image/k.png',
+      imageUrl: 'https://imgur.com/PGMNSGF.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'l',
-      imageUrl: '../public/Image/l.png',
+      imageUrl: 'https://imgur.com/dkqCY81.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'm',
-      imageUrl: '../public/Image/m.png',
+      imageUrl: 'https://imgur.com/3ws6jFu.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'n',
-      imageUrl: '../public/Image/n.png',
+      imageUrl: 'https://imgur.com/IM5AXXH.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'o',
-      imageUrl: '../public/Image/o.png',
+      imageUrl: 'https://imgur.com/zxmHPXY.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'p',
-      imageUrl: '../public/Image/p.png',
+      imageUrl: 'https://imgur.com/ppcsI9j.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'q',
-      imageUrl: '../public/Image/q.png',
+      imageUrl: 'https://imgur.com/60JhnuP.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'r',
-      imageUrl: '../public/Image/r.png',
+      imageUrl: 'https://imgur.com/pJQiLOH.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 's',
-      imageUrl: '../public/Image/s.png',
+      imageUrl: 'https://imgur.com/VN9zj5f.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 't',
-      imageUrl: '../public/Image/t.png',
+      imageUrl: 'https://imgur.com/1AfTBwg.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'u',
-      imageUrl: '../public/Image/u.png',
+      imageUrl: 'https://imgur.com/nIrr63X.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'v',
-      imageUrl: '../public/Image/v.png',
+      imageUrl: 'https://imgur.com/VI92jQ1.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'w',
-      imageUrl: '../public/Image/w.png',
+      imageUrl: 'https://imgur.com/1QLVgNv.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'x',
-      imageUrl: '../public/Image/x.png',
+      imageUrl: 'https://imgur.com/3MRfAt7.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'y',
-      imageUrl: '../public/Image/y.png',
+      imageUrl: 'https://imgur.com/8otAugj.png',
       description: 'a in asl'
     }),
     Image.create({
       name: 'z',
-      imageUrl: '../public/Image/z.png',
+      imageUrl: 'https://imgur.com/vn6gFVX.png',
       description: 'a in asl'
+    }),
+
+    Image.create({
+      name: '1',
+      imageUrl: 'https://imgur.com/BgTOGiX.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '2',
+      imageUrl: 'https://imgur.com/RKjO2W3.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '3',
+      imageUrl: 'https://imgur.com/Dszce8K.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '4',
+      imageUrl: 'https://imgur.com/NXcmjaM.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '5',
+      imageUrl: 'https://imgur.com/zjSGdle.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '6',
+      imageUrl: 'https://imgur.com/eVfEZRO.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '7',
+      imageUrl: 'https://imgur.com/ivEDCCW.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '8',
+      imageUrl: 'https://imgur.com/IF8Rerc.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '9',
+      imageUrl: 'https://imgur.com/QM3lKIr.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '10',
+      imageUrl: 'https://imgur.com/cwpuU44.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '11',
+      imageUrl: 'https://i.imgur.com/M0FGtVF.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '12',
+      imageUrl: 'https://imgur.com/RpHJoUj.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '13',
+      imageUrl: 'https://imgur.com/nhDurC2.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '14',
+      imageUrl: 'https://imgur.com/zsZSwF3.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '15',
+      imageUrl: 'https://imgur.com/20SosAj.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '16',
+      imageUrl: 'https://imgur.com/MOoy9aB.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '17',
+      imageUrl: 'https://imgur.com/zu5WS9C.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '18',
+      imageUrl: 'https://imgur.com/ONODQHF.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '19',
+      imageUrl: 'https://imgur.com/lCaeDrJ.png',
+      description: '1 in asl'
+    }),
+    Image.create({
+      name: '20',
+      imageUrl: 'https://imgur.com/9HxQZUh.png',
+      description: '1 in asl'
     })
   ])
 

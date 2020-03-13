@@ -5,7 +5,7 @@ module.exports = router
 router.get('/', async (req, res, next) => {
   try {
     const all = await Image.findAll({
-      attributes: ['name', 'imageUrl', 'description']
+      attributes: ['id', 'name', 'imageUrl', 'description']
     })
     res.json(all)
   } catch (error) {
