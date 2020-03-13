@@ -5,13 +5,19 @@ import {combineReducers} from 'redux'
  * ACTION TYPES
  */
 const GET_IMAGES = 'GET_IMAGES'
+const GET_SINGLE_IMAGE = 'GET_SINGLE_IMAGE'
 
 /**
  * ACTION CREATORS
  */
-const getImages = images => ({
+const gotImages = images => ({
   type: GET_IMAGES,
   images
+})
+
+const gotSingleImage = image => ({
+  type: GET_SINGLE_IMAGE,
+  image
 })
 
 /**
@@ -21,13 +27,23 @@ export const getAllImages = () => {
   return async dispatch => {
     try {
       const {data} = await axios.get('/api/images')
-      dispatch(getImages(data))
+      dispatch(gotImages(data))
     } catch (error) {
       console.error(error)
     }
   }
 }
 
+export const getSingleImage = id => {
+  return async dispatch => {
+    try {
+      const {data} = await axios.get(`/api/images/${id}`)
+      dispatch(gotSingleImage(data))
+    } catch (error) {
+      console.error(error)
+    }
+  }
+}
 /**
  * REDUCERS
  */
@@ -40,8 +56,18 @@ function allImagesReducer(images = [], action) {
   }
 }
 
+function singleImageReducer(image = {}, action) {
+  switch (action.type) {
+    case GET_SINGLE_IMAGE:
+      return action.image
+    default:
+      return image
+  }
+}
+
 const rootReducer = combineReducers({
-  allImages: allImagesReducer
+  allImages: allImagesReducer,
+  singleImage: singleImageReducer
 })
 
 export default rootReducer

@@ -11,6 +11,8 @@ import {
   SpeechToText,
   TextToSpeech,
   TextToASL,
+  SingleTextToASL,
+  SingleVideoTextToASL,
   ASLToText,
   ASLToSpeech
 } from './components'
@@ -37,6 +39,9 @@ class Routes extends Component {
         <Route exact path="/speechToText" component={SpeechToText} />
         <Route exact path="/textToSpeech" component={TextToSpeech} />
         <Route exact path="/textToASL" component={TextToASL} />
+        <Route exact path="/images/:id" component={SingleTextToASL} />
+        <Route exact path="/videos/:id" component={SingleVideoTextToASL} />
+
         <Route exact path="/ASLToText" component={ASLToText} />
         <Route exact path="/ASLToSpeech" component={ASLToSpeech} />
 
