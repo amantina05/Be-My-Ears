@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {getSingleVideo} from '../store'
+import {Link} from 'react-router-dom'
 
 class singleTextToASL extends Component {
   componentDidMount() {
@@ -16,6 +17,10 @@ class singleTextToASL extends Component {
           <h3>{video.name}</h3>
           <h2>Description: </h2>
           <h3>{video.description}</h3>
+
+          <Link to="/texttoasl">
+            <p>Back to ASL images/ videos</p>
+          </Link>
         </center>
       </div>
     )

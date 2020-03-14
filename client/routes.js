@@ -36,8 +36,9 @@ class Routes extends Component {
         <Route path="/signup" component={Signup} />
 
         <Route path="/ghome" component={GuestHome} />
+
         <Route exact path="/speechToText" component={SpeechToText} />
-        <Route exact path="/textToSpeech" component={TextToSpeech} />
+        {/* <Route exact path="/textToSpeech" component={TextToSpeech} /> */}
         <Route exact path="/textToASL" component={TextToASL} />
         <Route exact path="/images/:id" component={SingleTextToASL} />
         <Route exact path="/videos/:id" component={SingleVideoTextToASL} />
@@ -51,7 +52,7 @@ class Routes extends Component {
             <Route path="/home" component={UserHome} />
             <Route path="/profile" component={Profile} />
             <Route path="/speechToText" component={SpeechToText} />
-            <Route exact path="/textToSpeech" component={TextToSpeech} />
+            {/* <Route exact path="/textToSpeech" component={TextToSpeech} /> */}
             <Route path="/textToASL" component={TextToASL} />
             <Route path="/ASLToText" component={ASLToText} />
             <Route path="/ASLToSpeech" component={ASLToSpeech} />

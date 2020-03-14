@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+// import Tts from 'react-native-tts'
+// import Tts from 'react-native-tts'
 
 export default class textToSpeech extends Component {
   render() {
@@ -7,6 +9,8 @@ export default class textToSpeech extends Component {
         <h2>Text To Speech</h2>
 
         {/* https://github.com/hiddentao/google-tts#new-googlettslanguage */}
+
+        {/* <h3>Tts.speak('hello world')</h3> */}
       </div>
     )
   }
