@@ -13,51 +13,171 @@ async function seed() {
   ])
 
   const videos = await Promise.all([
+    // Video.create({
+    //   name: 'abc',
+    //   videoUrl: '',
+    //   description: 'learn your abcs in asl'
+    // }),
+    // Video.create({
+    //   name: '1-30',
+    //   videoUrl: 'https://youtu.be/hFCXyB6q2nU',
+    //   description: 'learn your 123s in asl'
+    // }),
+    // Video.create({
+    //   name: 'Basic Bicycle Vocabulary',
+    //   videoUrl: 'https://youtu.be/cimH8aPqNWE',
+    //   description: '• RIDE-BIKE • BIKE • HELMET • WHEEL • HANDLEBARS • SEAT'
+    // }),
+    // Video.create({
+    //   name: 'Breathe',
+    //   videoUrl: 'https://youtu.be/ybsmfjdWtCw',
+    //   description: 'learn to sign breathe'
+    // }),
+    // Video.create({
+    //   name: 'Skeleton or Bones',
+    //   videoUrl: 'https://youtu.be/vZYEbykg6cA',
+    //   description: 'learn to sign skeleton or bones'
+    // }),
+    // Video.create({
+    //   name: 'Lungs',
+    //   videoUrl: 'https://youtu.be/SoFuCoOfbl8',
+    //   description: 'learn to sign lungs'
+    // }),
+    // Video.create({
+    //   name: 'Nervous',
+    //   videoUrl: 'https://youtu.be/DhzaFptHtLk',
+    //   description: 'learn to sign nervous'
+    // }),
+    // Video.create({
+    //   name: 'Brain',
+    //   videoUrl: 'https://youtu.be/t8gkJrY2mSM.png',
+    //   description: 'learn to sign brain'
+    //   // <iframe width="560" height="315" src="https://www.youtube.com/embed/t8gkJrY2mSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    // }),
+    // Video.create({
+    //   name: 'Spine',
+    //   videoUrl: 'https://www.youtube.com/embed/HF2kbfAsyaI.mp4',
+    //   description: 'learn to sign spine'
+    // }),
     Video.create({
-      name: 'abc',
-      videoUrl: '',
-      description: 'learn your abcs in asl'
+      name: 'Monday',
+      videoUrl: 'https://imgur.com/mbh5Nyn.mp4',
+      description: 'learn how to sign Monday in asl'
     }),
     Video.create({
-      name: '1-30',
-      videoUrl: 'https://youtu.be/hFCXyB6q2nU',
-      description: 'learn your 123s in asl'
+      name: 'Tuesday',
+      videoUrl: 'https://imgur.com/MINc0Nu.mp4',
+      description: 'learn how to sign Tuesday in asl'
     }),
     Video.create({
-      name: 'Basic Bicycle Vocabulary',
-      videoUrl: 'https://youtu.be/cimH8aPqNWE',
-      description: '• RIDE-BIKE • BIKE • HELMET • WHEEL • HANDLEBARS • SEAT'
+      name: 'Wednesday',
+      videoUrl: 'https://imgur.com/IObOX4s.mp4',
+      description: 'learn how to sign Wednesday in asl'
     }),
     Video.create({
-      name: 'Breathe',
-      videoUrl: 'https://youtu.be/ybsmfjdWtCw',
-      description: 'learn to sign breathe'
+      name: 'Thursday',
+      videoUrl: 'https://imgur.com/q27cOqK.mp4',
+      description: 'learn how to sign Thursday in asl'
     }),
     Video.create({
-      name: 'Skeleton or Bones',
-      videoUrl: 'https://youtu.be/vZYEbykg6cA',
-      description: 'learn to sign skeleton or bones'
+      name: 'Friday',
+      videoUrl: 'https://imgur.com/H8gh7vE.mp4',
+      description: 'learn how to sign Friday in asl'
     }),
     Video.create({
-      name: 'Lungs',
-      videoUrl: 'https://youtu.be/SoFuCoOfbl8',
-      description: 'learn to sign lungs'
+      name: 'Saturday',
+      videoUrl: 'https://imgur.com/97HFIW4.mp4',
+      description: 'learn how to sign Saturday in asl'
     }),
     Video.create({
-      name: 'Nervous',
-      videoUrl: 'https://youtu.be/DhzaFptHtLk',
-      description: 'learn to sign nervous'
+      name: 'Sunday',
+      videoUrl: 'https://imgur.com/BanxfmR.mp4',
+      description: 'learn how to sign Sunday in asl'
     }),
     Video.create({
-      name: 'Brain',
-      videoUrl: 'https://youtu.be/t8gkJrY2mSM.png',
-      description: 'learn to sign brain'
-      // <iframe width="560" height="315" src="https://www.youtube.com/embed/t8gkJrY2mSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      name: 'Weekend',
+      videoUrl: 'https://imgur.com/QvBtaRQ.mp4',
+      description: 'learn how to sign Weekend in asl'
     }),
     Video.create({
-      name: 'Spine',
-      videoUrl: 'https://www.youtube.com/embed/HF2kbfAsyaI',
-      description: 'learn to sign spine'
+      name: 'Africa',
+      videoUrl: 'https://imgur.com/w0fVW6E.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'America',
+      videoUrl: 'https://imgur.com/XuIBiuA.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'Australia',
+      videoUrl: 'https://imgur.com/46r03uu.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'Canada',
+      videoUrl: 'https://imgur.com/eL0YL6D.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'China',
+      videoUrl: 'https://imgur.com/s54yrF9.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'England',
+      videoUrl: 'https://imgur.com/LhDpeFf.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'Europe',
+      videoUrl: 'https://imgur.com/mWZpjrr.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'France',
+      videoUrl: 'https://imgur.com/cbFoRu3.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'Germany',
+      videoUrl: 'https://imgur.com/IVMvDv4.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'India',
+      videoUrl: 'https://imgur.com/exwlLzb.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'Ireland',
+      videoUrl: 'https://imgur.com/kQIq6Fq.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'Italy',
+      videoUrl: 'https://imgur.com/3JJ5Hgi.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'Japan',
+      videoUrl: 'https://imgur.com/sGNNHPd.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'Mexico',
+      videoUrl: 'https://imgur.com/XDtEArw.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'Russia',
+      videoUrl: 'https://imgur.com/6tbksBB.mp4',
+      description: 'learn how to sign Weekend in asl'
+    }),
+    Video.create({
+      name: 'Spain',
+      videoUrl: 'https://imgur.com/JMYaXQR.mp4',
+      description: 'learn how to sign Weekend in asl'
     })
   ])
 

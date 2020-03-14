@@ -71,7 +71,12 @@ class textToASL extends Component {
                 <p>{video.name}</p>
               </Link>
               <br />
-              <img src={video.imageUrl} width="190" height="190" />
+              {/* <video loop autoPlay>
+                <source src={video.videoUrl} type="video/mp4" />
+              </video> */}
+              {/* <video src={video.videoUrl} width="190" height="190" /> */}
+              <video src={video.videoUrl} width="190" height="190" controls />
+
               <br />
             </ol>
           )

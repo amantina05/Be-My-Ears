@@ -11,7 +11,7 @@ class singleTextToASL extends Component {
     return (
       <div>
         <center>
-          <img src={video.imageUrl} width="190" height="190" />
+          <video src={video.videoUrl} width="190" height="190" controls />
           <h2>Name: </h2>
           <h3>{video.name}</h3>
           <h2>Description: </h2>
