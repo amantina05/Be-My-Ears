@@ -292,7 +292,7 @@ async function seed() {
     }),
     Video.create({
       name: 'all',
-      videoUrl: 'all.mp4',
+      videoUrl: 'https://imgur.com/TghBTPV.mp4',
       description: 'learn how to sign all in asl'
     }),
     Video.create({

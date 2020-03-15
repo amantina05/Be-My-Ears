@@ -59,6 +59,7 @@
     "pg": "^7.18.2",
     "pg-hstore": "^2.3.2",
     "prop-types": "^15.7.2",
+    "query-string": "^6.11.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-mic": "^12.4.1",
