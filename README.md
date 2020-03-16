@@ -6,7 +6,7 @@
 
 #### Check out my deployed web app:
 
-[Have Yachts E-Commerce Site](https://be-my-ears.herokuapp.com/ 'Be My Ears')
+[Be My Ears](https://be-my-ears.herokuapp.com/ 'Be My Ears')
 
 #### Marketing copy:
 
