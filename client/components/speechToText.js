@@ -130,47 +130,22 @@ const Dictaphone = ({
 
   return (
     <div>
-      <h2>Speech To Text</h2>
-      {isListening && <button onClick={handleReset}> Reset </button>}
-      <span>{transcript}</span>
-      <div>
+      <center>
+        <h2>Speech To Text</h2>
+        {isListening && <button onClick={handleReset}> Reset </button>}
+        <span>{transcript}</span>
         <div>
-          <p>Click the button to start/stop recording</p>
-          <br />
-          <button onClick={handleChange}>
-            <i>mic</i>
-          </button>
-          {isListening && <p>Recording..</p>}
-        </div>
-        <ReactMic record={record} onStop={onStop} strokeColor="#000000" />
-      </div>
-      {/* {note && (
-        <div>
-          <form onSubmit={handleSubmit}>
-            <input
-              onChange={e => setTitle(e.target.value)}
-              value={title}
-              placeholder="Enter Title"
-              type="text"
-              required
-            />
-            <h4>Transcript</h4>
-            <p>
-              Make your edits here to improve the searching. If you want to
-              continue recording, press the button again
-            </p>
-            <textarea
-              name="transcript"
-              onChange={e => setNote(e.target.value)}
-              value={note}
-            ></textarea>
-            <button>
-              <i>note_add</i>
-              <span>Add Note</span>
+          <div>
+            <p>Click the button to start/stop recording</p>
+            <br />
+            <button onClick={handleChange}>
+              <i>mic</i>
             </button>
-          </form>
+            {isListening && <p>Recording..</p>}
+          </div>
+          <ReactMic record={record} onStop={onStop} strokeColor="#ffffff" />
         </div>
-      )} */}
+      </center>
     </div>
   )
 }

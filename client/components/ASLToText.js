@@ -4,7 +4,9 @@ export default class ASLToText extends Component {
   render() {
     return (
       <div>
-        <h2>ASL To Text</h2>
+        <center>
+          <h2>ASL To Text</h2>
+        </center>
       </div>
     )
   }

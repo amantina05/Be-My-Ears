@@ -23,7 +23,7 @@ class textToASL extends Component {
     }
 
     let page = +qs.page
-    const pageSize = 15
+    const pageSize = 8
     if (!page) {
       page = 1
     }
@@ -38,13 +38,6 @@ class textToASL extends Component {
       filterImages = images
       filterVideos = videos
     }
-
-    // let filterImages = images.filter(
-    //   image => image.name.toLowerCase() === qs.query
-    // )
-    // let filterVideos = videos.filter(
-    //   video => video.name.toLowerCase() === qs.query
-    // )
 
     let slicedImages = filterImages.slice(
       (page - 1) * pageSize,
@@ -71,6 +64,91 @@ class textToASL extends Component {
             />
           </form>
         </center>
+        <nav>
+          <center>
+            <Link to="/videos">
+              <p>#</p>
+            </Link>
+            <Link to="/texttoasl/videos">
+              <p>a</p>
+            </Link>
+            <Link to="/videos">
+              <p>b</p>
+            </Link>
+            <Link to="/videos">
+              <p>c</p>
+            </Link>
+            <Link to="/videos">
+              <p>d</p>
+            </Link>
+            <Link to="/videos">
+              <p>e</p>
+            </Link>
+            <Link to="/videos">
+              <p>f</p>
+            </Link>
+            <Link to="/videos">
+              <p>g</p>
+            </Link>
+            <Link to="/videos">
+              <p>h</p>
+            </Link>
+            <Link to="/videos">
+              <p>i</p>
+            </Link>
+            <Link to="/videos">
+              <p>j</p>
+            </Link>
+            <Link to="/videos">
+              <p>k</p>
+            </Link>
+            <Link to="/videos">
+              <p>l</p>
+            </Link>
+            <Link to="/videos">
+              <p>m</p>
+            </Link>
+            <Link to="/videos">
+              <p>n</p>
+            </Link>
+            <Link to="/videos">
+              <p>o</p>
+            </Link>
+            <Link to="/videos">
+              <p>p</p>
+            </Link>
+            <Link to="/videos">
+              <p>q</p>
+            </Link>
+            <Link to="/videos">
+              <p>r</p>
+            </Link>
+            <Link to="/videos">
+              <p>s</p>
+            </Link>
+            <Link to="/videos">
+              <p>t</p>
+            </Link>
+            <Link to="/videos">
+              <p>u</p>
+            </Link>
+            <Link to="/videos">
+              <p>v</p>
+            </Link>
+            <Link to="/videos">
+              <p>w</p>
+            </Link>
+            <Link to="/videos">
+              <p>x</p>
+            </Link>
+            <Link to="/videos">
+              <p>y</p>
+            </Link>
+            <Link to="/videos">
+              <p>z</p>
+            </Link>
+          </center>
+        </nav>
         <div className="textToASL">
           {slicedImages.map(image => {
             return (
