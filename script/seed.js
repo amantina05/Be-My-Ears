@@ -1001,6 +1001,332 @@ async function seed() {
       name: 'cheap',
       videoUrl: 'https://imgur.com/DmOIIAl.mp4',
       description: 'learn how to sign cheap in asl'
+    }),
+
+    Video.create({
+      name: 'cheese',
+      videoUrl: 'https://imgur.com/hELu6Kq.mp4',
+      description: 'learn how to sign cheese in asl'
+    }),
+    Video.create({
+      name: 'cheat',
+      videoUrl: 'https://imgur.com/Ip1UdC2.mp4',
+      description: 'learn how to sign cheat in asl'
+    }),
+    Video.create({
+      name: 'chemistry',
+      videoUrl: 'https://imgur.com/iUG6Bm0.mp4',
+      description: 'learn how to sign chemistry in asl'
+    }),
+    Video.create({
+      name: 'chicken',
+      videoUrl: 'https://imgur.com/lGDfvFl.mp4',
+      description: 'learn how to sign chicken in asl'
+    }),
+    Video.create({
+      name: 'cheerful',
+      videoUrl: 'https://imgur.com/m0yp9oA.mp4',
+      description: 'learn how to sign cheerful in asl'
+    }),
+    Video.create({
+      name: 'cherish',
+      videoUrl: 'https://imgur.com/JbuKRyh.mp4',
+      description: 'learn how to sign cherish in asl'
+    }),
+    Video.create({
+      name: 'children',
+      videoUrl: 'https://imgur.com/54nDJ5j.mp4',
+      description: 'learn how to sign children in asl'
+    }),
+    Video.create({
+      name: 'choose',
+      videoUrl: 'https://imgur.com/aVvHMnE.mp4',
+      description: 'learn how to sign choose in asl'
+    }),
+    Video.create({
+      name: 'child',
+      videoUrl: 'https://imgur.com/G0z9hEI.mp4',
+      description: 'learn how to sign child in asl'
+    }),
+    Video.create({
+      name: 'chocolate',
+      videoUrl: 'https://imgur.com/3D8qB7A.mp4',
+      description: 'learn how to sign chocolate in asl'
+    }),
+    Video.create({
+      name: 'church',
+      videoUrl: 'https://imgur.com/NNV4Lrk.mp4',
+      description: 'learn how to sign church in asl'
+    }),
+    Video.create({
+      name: 'cigarette',
+      videoUrl: 'https://imgur.com/22MMj4K.mp4',
+      description: 'learn how to sign cigarette in asl'
+    }),
+    Video.create({
+      name: 'city',
+      videoUrl: 'https://imgur.com/NjL4tvV.mp4',
+      description: 'learn how to sign city in asl'
+    }),
+    Video.create({
+      name: 'class',
+      videoUrl: 'https://imgur.com/DrxvUVv.mp4',
+      description: 'learn how to sign class in asl'
+    }),
+    Video.create({
+      name: 'clean up',
+      videoUrl: 'https://imgur.com/BdMbdW1.mp4',
+      description: 'learn how to sign clean up in asl'
+    }),
+    Video.create({
+      name: 'clean',
+      videoUrl: 'https://imgur.com/CAIAK10.mp4',
+      description: 'learn how to sign clean in asl'
+    }),
+    Video.create({
+      name: 'clear',
+      videoUrl: 'https://imgur.com/ZEtn6qA.mp4',
+      description: 'learn how to sign clear in asl'
+    }),
+    Video.create({
+      name: 'close',
+      videoUrl: 'https://imgur.com/OfzXs8z.mp4',
+      description: 'learn how to sign close in asl'
+    }),
+    Video.create({
+      name: 'closet',
+      videoUrl: 'https://imgur.com/hlPZuUp.mp4',
+      description: 'learn how to sign closet in asl'
+    }),
+    Video.create({
+      name: 'coffee',
+      videoUrl: 'https://imgur.com/dAwg9QL.mp4',
+      description: 'learn how to sign coffee in asl'
+    }),
+    Video.create({
+      name: 'college',
+      videoUrl: 'https://imgur.com/xHN52CW.mp4',
+      description: 'learn how to sign college in asl'
+    }),
+    Video.create({
+      name: 'clothes',
+      videoUrl: 'https://imgur.com/Fj0JeYs.mp4',
+      description: 'learn how to sign clothes in asl'
+    }),
+    Video.create({
+      name: 'clouds',
+      videoUrl: 'https://imgur.com/h60jP9t.mp4',
+      description: 'learn how to sign clouds in asl'
+    }),
+    Video.create({
+      name: 'cold',
+      videoUrl: 'https://imgur.com/73UFuuH.mp4',
+      description: 'learn how to sign cold in asl'
+    }),
+    Video.create({
+      name: 'cold',
+      videoUrl: 'https://imgur.com/x6X6tYW.mp4',
+      description: 'learn how to sign cold in asl'
+    }),
+    Video.create({
+      name: 'color',
+      videoUrl: 'https://imgur.com/TsTzpcN.mp4',
+      description: 'learn how to sign color in asl'
+    }),
+    Video.create({
+      name: 'comb',
+      videoUrl: 'https://imgur.com/OuxhWPq.mp4',
+      description: 'learn how to sign comb in asl'
+    }),
+    Video.create({
+      name: 'compliment',
+      videoUrl: 'https://imgur.com/TDhhZaP.mp4',
+      description: 'learn how to sign compliment in asl'
+    }),
+    Video.create({
+      name: 'complicated',
+      videoUrl: 'https://imgur.com/AEQ1tfQ.mp4',
+      description: 'learn how to sign complicated in asl'
+    }),
+    Video.create({
+      name: 'complain',
+      videoUrl: 'https://imgur.com/ixoANM6.mp4',
+      description: 'learn how to sign complain in asl'
+    }),
+    Video.create({
+      name: 'complete',
+      videoUrl: 'https://imgur.com/wEHKu4b.mp4',
+      description: 'learn how to sign complete in asl'
+    }),
+    Video.create({
+      name: 'compare',
+      videoUrl: 'https://imgur.com/0c2UWS6.mp4',
+      description: 'learn how to sign compare in asl'
+    }),
+    Video.create({
+      name: 'commute',
+      videoUrl: 'https://imgur.com/RwIRbNG.mp4',
+      description: 'learn how to sign commute in asl'
+    }),
+    Video.create({
+      name: 'communicate',
+      videoUrl: 'https://imgur.com/QVRevL4.mp4',
+      description: 'learn how to sign communicate in asl'
+    }),
+    Video.create({
+      name: 'command',
+      videoUrl: 'https://imgur.com/d2RsjWC.mp4',
+      description: 'learn how to sign command in asl'
+    }),
+    Video.create({
+      name: 'comfortable',
+      videoUrl: 'https://imgur.com/X3x6I0p.mp4',
+      description: 'learn how to sign comfortable in asl'
+    }),
+    Video.create({
+      name: 'come',
+      videoUrl: 'https://imgur.com/AaSU47G.mp4',
+      description: 'learn how to sign come in asl'
+    }),
+    Video.create({
+      name: 'computer',
+      videoUrl: 'https://imgur.com/IwL5GlU.mp4',
+      description: 'learn how to sign computer in asl'
+    }),
+    Video.create({
+      name: 'congratulate',
+      videoUrl: 'https://imgur.com/QBaqZMA.mp4',
+      description: 'learn how to congratulate big in asl'
+    }),
+    Video.create({
+      name: 'connect',
+      videoUrl: 'https://imgur.com/CrBaF9E.mp4',
+      description: 'learn how to sign connect in asl'
+    }),
+    Video.create({
+      name: 'conflict',
+      videoUrl: 'https://imgur.com/Vt0ZjRi.mp4',
+      description: 'learn how to sign conflict in asl'
+    }),
+    Video.create({
+      name: 'confused',
+      videoUrl: 'https://imgur.com/iRMX9qK.mp4',
+      description: 'learn how to sign confused in asl'
+    }),
+    Video.create({
+      name: 'contact',
+      videoUrl: 'https://imgur.com/bz4YoPZ.mp4',
+      description: 'learn how to sign contact in asl'
+    }),
+    Video.create({
+      name: 'continue',
+      videoUrl: 'https://imgur.com/nyMA3nI.mp4',
+      description: 'learn how to sign continue in asl'
+    }),
+    Video.create({
+      name: 'copy',
+      videoUrl: 'https://imgur.com/hIQGcMJ.mp4',
+      description: 'learn how to sign copy in asl'
+    }),
+    Video.create({
+      name: 'cook',
+      videoUrl: 'https://imgur.com/PpZBSAg.mp4',
+      description: 'learn how to sign cook in asl'
+    }),
+    Video.create({
+      name: 'cool',
+      videoUrl: 'https://imgur.com/BgyYEGO.mp4',
+      description: 'learn how to sign cool in asl'
+    }),
+    Video.create({
+      name: 'control',
+      videoUrl: 'https://imgur.com/Gm5m4Q8.mp4',
+      description: 'learn how to sign control in asl'
+    }),
+    Video.create({
+      name: 'cookie',
+      videoUrl: 'https://imgur.com/dcCGX37.mp4',
+      description: 'learn how to sign cookie in asl'
+    }),
+    Video.create({
+      name: 'cool',
+      videoUrl: 'https://imgur.com/h3UnNx1.mp4',
+      description: 'learn how to sign cool in asl'
+    }),
+    Video.create({
+      name: 'cooperate',
+      videoUrl: 'https://imgur.com/wGkL5tc.mp4',
+      description: 'learn how to sign cooperate in asl'
+    }),
+    Video.create({
+      name: 'connect',
+      videoUrl: 'https://imgur.com/1oLiAYl.mp4',
+      description: 'learn how to sign connect in asl'
+    }),
+    Video.create({
+      name: 'corner',
+      videoUrl: 'https://imgur.com/kdvs1Yb.mp4',
+      description: 'learn how to sign corner in asl'
+    }),
+    Video.create({
+      name: 'cost',
+      videoUrl: 'https://imgur.com/F3JVupO.mp4',
+      description: 'learn how to sign cost in asl'
+    }),
+    Video.create({
+      name: 'cough',
+      videoUrl: 'https://imgur.com/UkcpGwk.mp4',
+      description: 'learn how to sign cough in asl'
+    }),
+    Video.create({
+      name: 'country',
+      videoUrl: 'https://imgur.com/r0mTPH5.mp4',
+      description: 'learn how to sign country in asl'
+    }),
+    Video.create({
+      name: 'cousin',
+      videoUrl: 'https://imgur.com/972OvHZ.mp4',
+      description: 'learn how to sign cousin in asl'
+    }),
+    Video.create({
+      name: 'cow',
+      videoUrl: 'https://imgur.com/zGOsv9F.mp4',
+      description: 'learn how to sign cow in asl'
+    }),
+    Video.create({
+      name: 'crave',
+      videoUrl: 'https://imgur.com/mRgyWSz.mp4',
+      description: 'learn how to sign crave in asl'
+    }),
+    Video.create({
+      name: 'crazy',
+      videoUrl: 'https://imgur.com/WEBlLJO.mp4',
+      description: 'learn how to sign crazy in asl'
+    }),
+    Video.create({
+      name: 'create',
+      videoUrl: 'https://imgur.com/AnPvZrH.mp4',
+      description: 'learn how to sign create in asl'
+    }),
+    Video.create({
+      name: 'criticize',
+      videoUrl: 'https://imgur.com/g0rqvpQ.mp4',
+      description: 'learn how to sign criticize in asl'
+    }),
+    Video.create({
+      name: 'crowded',
+      videoUrl: 'https://imgur.com/ImbrhfE.mp4',
+      description: 'learn how to sign crowded in asl'
+    }),
+    Video.create({
+      name: 'curious',
+      videoUrl: 'https://imgur.com/UZv4abu.mp4',
+      description: 'learn how to sign curious in asl'
+    }),
+    Video.create({
+      name: 'cute',
+      videoUrl: 'https://imgur.com/L0dck5e.mp4',
+      description: 'learn how to sign cute in asl'
     })
   ])
 
@@ -1135,7 +1461,6 @@ async function seed() {
       imageUrl: 'https://imgur.com/vn6gFVX.png',
       description: 'z in asl'
     }),
-
     Image.create({
       name: '1',
       imageUrl: 'https://imgur.com/BgTOGiX.png',
