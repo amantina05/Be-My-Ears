@@ -846,7 +846,6 @@ async function seed() {
       videoUrl: 'https://imgur.com/AmpWS1t.mp4',
       description: 'learn how to sign bury in asl'
     }),
-
     Video.create({
       name: 'cake',
       videoUrl: 'https://imgur.com/KaCQRFv.mp4',
@@ -897,7 +896,6 @@ async function seed() {
       videoUrl: 'https://imgur.com/IRsZJEp.mp4',
       description: 'learn how to sign candy in asl'
     }),
-
     Video.create({
       name: 'caption',
       videoUrl: 'https://imgur.com/hTSWmB5.mp4',
@@ -918,7 +916,6 @@ async function seed() {
       videoUrl: 'https://imgur.com/2oxK0zd.mp4',
       description: 'learn how to sign careless in asl'
     }),
-
     Video.create({
       name: 'cat',
       videoUrl: 'https://imgur.com/bQqsGJ4.mp4',
@@ -939,7 +936,6 @@ async function seed() {
       videoUrl: 'https://imgur.com/vczpBsL.mp4',
       description: 'learn how to sign celebrate in asl'
     }),
-
     Video.create({
       name: 'cent',
       videoUrl: 'https://imgur.com/31fjMW3.mp4',
@@ -955,7 +951,6 @@ async function seed() {
       videoUrl: 'https://imgur.com/UXNSYC3.mp4',
       description: 'learn how to sign certificate in asl'
     }),
-
     Video.create({
       name: 'chair',
       videoUrl: 'https://imgur.com/1fZVcG0.mp4',
@@ -971,7 +966,6 @@ async function seed() {
       videoUrl: 'https://imgur.com/fMzBvev.mp4',
       description: 'learn how to sign champion in asl'
     }),
-
     Video.create({
       name: 'change',
       videoUrl: 'https://imgur.com/Is89KUN.mp4',
@@ -1002,7 +996,6 @@ async function seed() {
       videoUrl: 'https://imgur.com/DmOIIAl.mp4',
       description: 'learn how to sign cheap in asl'
     }),
-
     Video.create({
       name: 'cheese',
       videoUrl: 'https://imgur.com/hELu6Kq.mp4',
