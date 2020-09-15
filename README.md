@@ -8,6 +8,10 @@
 
 [Be My Ears](https://be-my-ears.herokuapp.com/ 'Be My Ears')
 
+#### Video Walk-through:
+
+![](https://j.gifs.com/QnMRE7.gif)
+
 #### Marketing copy:
 
 The idea is to make hard of hearing peoples lives a little bit easier. You can turn speech to text, text to speech and in the future asl to speech or text.
